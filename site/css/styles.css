@@ -1,0 +1,51 @@
+
+body {
+    font-family: Baskerville;
+    background-color: rgb(185,179,175);}
+h1 {
+    color: rgb(255,255,255);
+}  
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100px; /* Width of Menu Items */
+    border-bottom: 1px solid #ccc;
+}
+	
+ul li {
+    position: relative;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    background: #fff; /* IE6 Bug */
+    padding: 7px;
+    border: 1px solid #dad3d3; /* IE6 Bug */
+    border-bottom: 0;
+}
+
+a:hover,a:active {
+background-color:#f7696a;
+}
+
+.sidebar {
+    float: left;
+    width: 130px;
+    margin: 20px;
+    margin-top: 100;
+    position: fixed;
+}
+.body {
+    margin-left: 200px;
+    max-width: 600px;
+}
+
+.header {
+    margin-left: 200px;
+    position: fixed;
+}
+
